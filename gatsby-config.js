@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Starter Landing Page`,
+    title: `DAYBYDAY`,
     description: `A barebone landing page starter with some minimal styles.`,
-    author: `@gillkyle`,
-    siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
+    author: `@daybydayapp`,
+    siteUrl: `https://daybydayapp.eu`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

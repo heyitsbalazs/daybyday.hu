@@ -6,6 +6,8 @@ import Hero from "../components/hero"
 import Content from "../components/content"
 import CallToAction from "../components/cta"
 
+import '../styles/app.css';
+
 const IndexPage = () => (
   <Layout>
     <SEO />
