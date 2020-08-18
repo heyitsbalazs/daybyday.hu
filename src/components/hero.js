@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
             This landing page looks great on all devices and is minimal in design. Add
             what you want and deploy.
         </p>
-        <Button>Ertesitest kerek</Button>
+        <Button>Értesítést kérek!</Button>
     </div>
 )
 
