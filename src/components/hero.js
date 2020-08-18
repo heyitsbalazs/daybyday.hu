@@ -3,8 +3,7 @@ import PropTypes from 'prop-types'
 
 import Button from '../components/button'
 import headerImage from '../images/header.png'
-import MockupContent from './image'
-import mockupFrame from '../images/mockup-frame.png'
+import Logo from '../images/logo.svg'
 
 const Header = ({ siteTitle }) => (
     <div
@@ -26,7 +25,7 @@ const Header = ({ siteTitle }) => (
                 opacity: 0.5,
             } }
         />
-        <h1 style={ { textAlign: 'center' } }>Landing Page Starter</h1>
+        <img src={ Logo } alt={ 'logo' } />
         <p style={ { textAlign: 'center', maxWidth: 440 } }>
             This landing page looks great on all devices and is minimal in design. Add
             what you want and deploy.
