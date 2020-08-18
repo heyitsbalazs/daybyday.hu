@@ -27,8 +27,7 @@ const Header = ({ siteTitle }) => (
         />
         <img src={ Logo } alt={ 'logo' } />
         <p style={ { textAlign: 'center', maxWidth: 440 } }>
-            This landing page looks great on all devices and is minimal in design. Add
-            what you want and deploy.
+            Exkluziv ajanlatok kedvenc markaidtol, nap mint nap.
         </p>
         <Button>Értesítést kérek!</Button>
     </div>
