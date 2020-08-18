@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `DAYBYDAY`,
+    title: `DaybyDay`,
     description: `A barebone landing page starter with some minimal styles.`,
     author: `@daybydayapp`,
     siteUrl: `https://daybydayapp.eu`,
