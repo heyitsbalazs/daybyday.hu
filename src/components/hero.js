@@ -26,8 +26,10 @@ const Header = ({ siteTitle }) => (
             } }
         />
         <img src={ Logo } alt={ 'logo' } />
-        <p style={ { textAlign: 'center', maxWidth: 440 } }>
+        <p style={ { textAlign: 'center', maxWidth: 540 } }>
             Exkluziv ajanlatok kedvenc markaidtol, nap mint nap.
+            <br />
+            <b>Csak neked.</b>
         </p>
         <Button>Értesítést kérek!</Button>
     </div>
