@@ -5,6 +5,10 @@ import Logo from '../images/logo.svg'
 import AppStore from '../images/app-store.svg'
 import PlayStore from '../images/play-store.svg'
 
+const appStoreDownload = () => {
+
+}
+
 const Header = ({ siteTitle }) => (
     <div
         style={ {
@@ -29,15 +33,20 @@ const Header = ({ siteTitle }) => (
         <p style={ { textAlign: 'center', maxWidth: 540 } }>
             Exkluziv ajanlatok kedvenc markaidtol, nap mint nap
             <br />
-            <h2 className="heading heading--large text-center mt-4">
+            <span className="heading heading--large text-center mt-4">
                 <span className="heading__elem m-auto">
                     <strong className='lg:text-lg'>CSAK NEKED.</strong>
                 </span>
-            </h2>
+            </span>
         </p>
 
-        <img className='mt-8 h-12' src={ AppStore } alt={'Letoltheto az App Store-bol'} />
-        <img style={ { height: '3.3rem' } } src={ PlayStore } alt={'Letoltheto a Play Store-bol'} />
+        <img
+            onClick={ appStoreDownload }
+            className='mt-8 h-12'
+            src={ AppStore }
+            alt={ 'Letoltheto az App Store-bol' }
+        />
+        <img style={ { height: '3.3rem' } } src={ PlayStore } alt={ 'Letoltheto a Play Store-bol' } />
     </div>
 )
 

@@ -24,5 +24,12 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 1956554,
+        sv: 6,
+      },
+    },
   ],
 }
