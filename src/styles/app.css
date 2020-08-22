@@ -1,5 +1,42 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+.heading {
+  position: relative;
+  display: block;
+  margin-bottom: 2rem;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #ffffff;
+  transform: rotate(-1deg);
+}
+
+.heading--large {
+  line-height: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .heading--large {
+    line-height: 3rem;
+  }
+}
+
+.heading__elem {
+  display: table;
+  padding: 0 1rem;
+  background-color: #030303;
+}
+
+
