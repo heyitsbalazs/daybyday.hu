@@ -5,7 +5,9 @@
   "version": "0.1.0",
   "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
   "dependencies": {
+    "@tailwindui/react": "^0.1.0",
     "amplitude-js": "^7.1.0",
+    "axios": "^0.20.0",
     "gatsby": "^2.1.37",
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-google-analytics": "^2.0.17",
@@ -24,6 +26,12 @@
     "tailwindcss": "^1.7.3"
   },
   "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
     "prettier": "^1.16.4"
   },
   "keywords": [
