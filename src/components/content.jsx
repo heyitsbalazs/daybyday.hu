@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Content = () => (
-  <div className="py-12 bg-white">
+  <div className="bg-white">
     <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="lg:text-center">
         <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Transactions</p>
