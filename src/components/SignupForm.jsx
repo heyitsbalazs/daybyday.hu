@@ -54,14 +54,14 @@ function SignupForm({ show, close }) {
                   <div className="mt-2">
                     <p className="text-sm leading-5 text-gray-500">
                       {/* eslint-disable-next-line max-len */ }
-                      Szolgáltatasunk hamarosan elindul, es exkluziv, szemelyre szabott ajanlatokkal fogjuk napjaidat bearanyozni –
+                      Szolgáltatásunk hamarosan elindul, és exkluzív, személyre szabott ajánlatokkal fogjuk napjaidat bearanyozni –
                       { ' ' }
-                      <b>mert megerdemled.</b>
+                      <b>mert megérdemled.</b>
                     </p>
 
                     <p className="text-sm leading-5 text-gray-500 mt-4">
                       {/* eslint-disable-next-line max-len */ }
-                      Csatlakozz a varolistankoz, es legy az elsok kozott, akik kiprobaljak a DAYBYDAY-t.
+                      Csatlakozz a várólistánkoz, és légy az elsők között, akik kipróbálják a DAYBYDAY-t.
                     </p>
                   </div>
 
@@ -95,7 +95,7 @@ function SignupForm({ show, close }) {
                   type="button"
                   className="inline-flex justify-center w-full rounded-md border border-gray-300 px-4 py-2 bg-white text-base leading-6 font-medium text-gray-700 shadow-sm hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150 sm:text-sm sm:leading-5"
                 >
-                  Bezaras
+                  Bezárás
                 </button>
               </span>
             </div>
