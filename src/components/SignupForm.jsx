@@ -54,7 +54,7 @@ function SignupForm({ show, close }) {
                   <div className="mt-2">
                     <p className="text-sm leading-5 text-gray-500">
                       {/* eslint-disable-next-line max-len */ }
-                      Szolgaltatasunk hamarosan elindul, es exkluziv, szemelyre szabott ajanlatokkal fogjuk napjaidat bearanyozni –
+                      Szolgáltatasunk hamarosan elindul, es exkluziv, szemelyre szabott ajanlatokkal fogjuk napjaidat bearanyozni –
                       { ' ' }
                       <b>mert megerdemled.</b>
                     </p>
