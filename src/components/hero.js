@@ -55,7 +55,7 @@ const Header = () => {
         />
         <img src={Logo} alt="logo" />
         <p style={{ textAlign: 'center', maxWidth: 540 }}>
-          Exkluziv ajanlatok kedvenc markaidtol, nap mint nap
+          Exkluzív ajánlatok kedvenc márkáidtól, nap mint nap
           <br />
           <span className="heading heading--large text-center mt-4">
             <span className="heading__elem m-auto">
