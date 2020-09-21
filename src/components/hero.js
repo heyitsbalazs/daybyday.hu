@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import amplitude from 'amplitude-js';
+import Helmet from 'react-helmet';
+import { withPrefix } from 'gatsby-link';
 import headerImage from '../images/header.png';
 import Logo from '../images/logo.svg';
-import SignupForm from './SignupForm';
 import AppStore from '../images/app-store.svg';
 import PlayStore from '../images/play-store.svg';
 
@@ -11,29 +12,28 @@ amplitude.getInstance().init('629f4c710cc7cd13b84f305564970aa4');
 
 const Header = () => {
   const [hasClicked, setHasClicked] = useState(false);
-  const [showForm, setShowForm] = useState(false);
 
   useEffect(() => {
     amplitude.logEvent('PageView');
   }, []);
 
   const onDownload = (type) => {
-    console.log('hello');
+    if (window.ml_account) {
+      window.ml_account('webforms', '2591189', 'm1d6m3', 'show');
+    }
 
     if (!hasClicked) {
       amplitude.logEvent('AppDownload', { type });
     }
 
     setHasClicked(true);
-    setShowForm(true);
-  };
-
-  const closeSignupForm = () => {
-    setShowForm(false);
   };
 
   return (
     <>
+      <Helmet>
+        <script src={withPrefix('mailerlite.js')} />
+      </Helmet>
       <div
         style={{
           display: 'flex',
@@ -80,8 +80,6 @@ const Header = () => {
           src={PlayStore}
           alt="Letoltheto a Play Store-bol"
         />
-
-        <SignupForm close={closeSignupForm} show={showForm} />
       </div>
     </>
   );
